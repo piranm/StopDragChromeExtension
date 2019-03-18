@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "StopDragChromeExtension",
+  "version": "0.0.1",
+  "description": "Stop inadvertent mouse dragging in Chrome - developed to help a mother with shaky hands",
+  "main": "server.js",
+  "scripts": {
+    "start": "bash build.sh && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": "https://github.com/piranm/StopDragChromeExtension"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
